@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title">Check your typing speed</h1>
+    <p style="margin: 8px;">Practice your typing skills with a quote from Sherlock Holmes. Click **Start Typing Game** to begin!</p>
+    <p class="record">Your previous typing speed is <span class="previous--score"></span> seconds</p>
+    <div class="container">
+        <p class="display--quote"></p>
+        <input class="user--input" type="text" placeholder="Retype the quote here"><br>
+        <button class="btn start">Start Typing Game</button>
+        <div class="result--block">
+            <div class="result"></div>
+            <span class="close">&times;</span>
+        </div>   
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
